@@ -1,0 +1,1817 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shree Radha Peda | Authentic Indian Sweets & Traditional Peda</title>
+  <meta name="description" content="Experience the divine taste of traditional Mathura-style milk peda, kesar peda, and dry fruit peda crafted with pure ingredients and heritage recipes.">
+  
+  <!-- Font Awesome & Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- INTERNAL CSS (Embedded in head) -->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800;900&family=Marcellus&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,400&display=swap');
+
+    :root {
+      --color-deep-brown: #3B2118;
+      --color-rich-chocolate: #5A3022;
+      --color-cream: #FFF8EA;
+      --color-cream-light: #FFFCF5;
+      --color-golden: #C99A3D;
+      --color-golden-light: #E8C16B;
+      --color-golden-dark: #A57820;
+      --color-soft-beige: #F3E3C3;
+      --color-soft-beige-light: #FAF3E6;
+      --color-dark-text: #2B211D;
+      --color-muted-text: #6B574F;
+      --color-white: #FFFFFF;
+      --color-card-bg: #FFFFFF;
+      --color-border-gold: rgba(201, 154, 61, 0.35);
+      
+      --gold-gradient: linear-gradient(135deg, #C99A3D 0%, #F5D77F 45%, #B38228 100%);
+      --gold-gradient-soft: linear-gradient(135deg, #FAF3E6 0%, #F3E3C3 100%);
+      --dark-gradient: linear-gradient(135deg, #2B1710 0%, #3B2118 50%, #5A3022 100%);
+      --dark-gradient-radial: radial-gradient(circle at center, #5A3022 0%, #3B2118 70%, #20100A 100%);
+      
+      --font-serif: 'Marcellus', 'Playfair Display', Georgia, serif;
+      --font-royal: 'Cinzel', serif;
+      --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      
+      --shadow-sm: 0 2px 8px rgba(59, 33, 24, 0.06);
+      --shadow-md: 0 8px 24px rgba(59, 33, 24, 0.1);
+      --shadow-lg: 0 16px 36px rgba(59, 33, 24, 0.14);
+      --shadow-gold: 0 8px 25px rgba(201, 154, 61, 0.28);
+      --shadow-gold-hover: 0 12px 30px rgba(201, 154, 61, 0.4);
+      
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-pill: 9999px;
+      
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      --transition-bounce: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      
+      --container-width: 1200px;
+    }
+
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      font-size: 16px;
+      color-scheme: light;
+    }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--color-cream);
+      color: var(--color-dark-text);
+      line-height: 1.65;
+      overflow-x: hidden;
+      position: relative;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--color-cream);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--color-golden);
+      border-radius: 5px;
+      border: 2px solid var(--color-cream);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--color-golden-dark);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: var(--transition);
+    }
+
+    button, input, select, textarea {
+      font-family: inherit;
+      font-size: inherit;
+      border: none;
+      outline: none;
+    }
+
+    ul, ol {
+      list-style: none;
+    }
+
+    .container {
+      max-width: var(--container-width);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    .text-center { text-align: center; }
+    .text-left { text-align: left; }
+    .text-right { text-align: right; }
+
+    .gold-text {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      display: inline-block;
+    }
+
+    .section-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201, 154, 61, 0.12);
+      border: 1px solid rgba(201, 154, 61, 0.4);
+      color: var(--color-rich-chocolate);
+      padding: 6px 18px;
+      border-radius: var(--radius-pill);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .section-badge i {
+      color: var(--color-golden);
+      font-size: 0.9rem;
+    }
+
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.5vw, 2.85rem);
+      color: var(--color-deep-brown);
+      line-height: 1.25;
+      margin-bottom: 16px;
+      position: relative;
+    }
+
+    .section-subtitle {
+      font-size: 1.05rem;
+      color: var(--color-muted-text);
+      max-width: 680px;
+      margin: 0 auto 48px;
+      line-height: 1.7;
+    }
+
+    /* Ornamental Divider */
+    .ornament-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin: 12px auto 24px;
+      max-width: 260px;
+    }
+
+    .ornament-divider .line {
+      flex: 1;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--color-golden), transparent);
+    }
+
+    .ornament-divider .symbol {
+      color: var(--color-golden);
+      font-size: 1.2rem;
+      line-height: 1;
+    }
+
+    /* Buttons */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 14px 32px;
+      border-radius: var(--radius-pill);
+      font-weight: 600;
+      font-size: 0.95rem;
+      letter-spacing: 0.5px;
+      cursor: pointer;
+      transition: var(--transition-bounce);
+      position: relative;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .btn-primary {
+      background: var(--gold-gradient);
+      color: var(--color-deep-brown);
+      box-shadow: var(--shadow-gold);
+      border: 1px solid rgba(255, 255, 255, 0.4);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-gold-hover);
+      color: #1a0f0a;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--color-cream);
+      border: 1.5px solid var(--color-golden);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(201, 154, 61, 0.15);
+      color: var(--color-golden-light);
+      transform: translateY(-3px);
+    }
+
+    .btn-dark {
+      background: var(--color-deep-brown);
+      color: var(--color-cream);
+      border: 1px solid var(--color-golden);
+    }
+
+    .btn-dark:hover {
+      background: var(--color-rich-chocolate);
+      transform: translateY(-3px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .btn-sm {
+      padding: 8px 18px;
+      font-size: 0.85rem;
+    }
+
+    /* Header & Topbar */
+    .topbar {
+      background: var(--color-deep-brown);
+      color: var(--color-soft-beige);
+      font-size: 0.82rem;
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(201, 154, 61, 0.25);
+    }
+
+    .topbar-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .topbar-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .topbar-item i {
+      color: var(--color-golden);
+    }
+
+    .navbar-wrapper {
+      position: sticky;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(255, 248, 234, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--color-border-gold);
+      transition: var(--transition);
+    }
+
+    .navbar-wrapper.scrolled {
+      background: rgba(59, 33, 24, 0.97);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      border-bottom: 1px solid rgba(201, 154, 61, 0.3);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 16px 0;
+      position: relative;
+    }
+
+    .brand-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .logo-symbol {
+      width: 44px;
+      height: 44px;
+      background: var(--gold-gradient);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 12px rgba(201, 154, 61, 0.35);
+      color: var(--color-deep-brown);
+      font-size: 1.4rem;
+      font-weight: bold;
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-title {
+      font-family: var(--font-royal);
+      font-size: 1.35rem;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: var(--color-deep-brown);
+      line-height: 1.1;
+      transition: var(--transition);
+    }
+
+    .scrolled .logo-title {
+      color: var(--color-cream);
+    }
+
+    .logo-subtitle {
+      font-size: 0.72rem;
+      letter-spacing: 3px;
+      color: var(--color-golden-dark);
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    .scrolled .logo-subtitle {
+      color: var(--color-golden-light);
+    }
+
+    .nav-menu {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+    }
+
+    .nav-link {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: var(--color-dark-text);
+      position: relative;
+      padding: 6px 0;
+      transition: var(--transition);
+    }
+
+    .scrolled .nav-link {
+      color: var(--color-soft-beige);
+    }
+
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--gold-gradient);
+      transition: var(--transition);
+      border-radius: 2px;
+    }
+
+    .nav-link:hover, .nav-link.active {
+      color: var(--color-golden);
+    }
+
+    .nav-link:hover::after, .nav-link.active::after {
+      width: 100%;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .hamburger {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 8px;
+      color: var(--color-deep-brown);
+      transition: var(--transition);
+    }
+
+    .scrolled .hamburger {
+      color: var(--color-cream);
+    }
+
+    .hamburger span {
+      display: block;
+      width: 26px;
+      height: 2.5px;
+      background: currentColor;
+      margin: 5px 0;
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+
+    /* Hero Section (Home) */
+    .hero {
+      position: relative;
+      background: var(--dark-gradient-radial);
+      padding: 90px 0 100px;
+      color: var(--color-cream);
+      overflow: hidden;
+      border-bottom: 2px solid var(--color-golden);
+    }
+
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      align-items: center;
+      gap: 50px;
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero-content {
+      max-width: 620px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201, 154, 61, 0.15);
+      border: 1px solid var(--color-golden);
+      color: var(--color-golden-light);
+      padding: 6px 18px;
+      border-radius: var(--radius-pill);
+      font-size: 0.85rem;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+    }
+
+    .hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2.4rem, 4.5vw, 3.8rem);
+      font-weight: 700;
+      line-height: 1.15;
+      color: var(--color-cream);
+      margin-bottom: 20px;
+    }
+
+    .hero-description {
+      font-size: 1.12rem;
+      color: var(--color-soft-beige);
+      line-height: 1.7;
+      margin-bottom: 36px;
+      font-weight: 300;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+
+    .hero-features-strip {
+      display: flex;
+      gap: 24px;
+      padding-top: 24px;
+      border-top: 1px solid rgba(201, 154, 61, 0.3);
+      flex-wrap: wrap;
+    }
+
+    .hero-feature-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 0.88rem;
+      color: var(--color-soft-beige);
+      font-weight: 500;
+    }
+
+    .hero-feature-item i {
+      color: var(--color-golden);
+      font-size: 1rem;
+    }
+
+    .hero-image-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+
+    .hero-image-card {
+      position: relative;
+      border-radius: 28px;
+      padding: 14px;
+      background: linear-gradient(135deg, rgba(201, 154, 61, 0.4), rgba(59, 33, 24, 0.6));
+      border: 1px solid var(--color-golden);
+      box-shadow: 0 25px 60px rgba(0, 0, 0, 0.5), var(--shadow-gold);
+    }
+
+    .hero-image-card img {
+      width: 100%;
+      max-width: 440px;
+      height: 440px;
+      object-fit: cover;
+      border-radius: 20px;
+      transition: transform 0.6s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .hero-image-card:hover img {
+      transform: scale(1.03);
+    }
+
+    .hero-floating-badge {
+      position: absolute;
+      bottom: -20px;
+      left: -20px;
+      background: var(--color-deep-brown);
+      border: 2px solid var(--color-golden);
+      padding: 14px 20px;
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .floating-badge-icon {
+      width: 42px;
+      height: 42px;
+      background: var(--gold-gradient);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-deep-brown);
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+
+    .floating-badge-text h4 {
+      font-family: var(--font-royal);
+      font-size: 0.95rem;
+      color: var(--color-cream);
+      letter-spacing: 0.5px;
+    }
+
+    .floating-badge-text p {
+      font-size: 0.78rem;
+      color: var(--color-golden-light);
+    }
+
+    /* Why Choose Us */
+    .features-section {
+      padding: 90px 0;
+      background-color: var(--color-cream);
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 28px;
+    }
+
+    .feature-card {
+      background: var(--color-white);
+      padding: 36px 28px;
+      border-radius: var(--radius-lg);
+      border: 1px solid rgba(201, 154, 61, 0.22);
+      box-shadow: var(--shadow-sm);
+      transition: var(--transition-bounce);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .feature-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--gold-gradient);
+      opacity: 0;
+      transition: var(--transition);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-md);
+      border-color: var(--color-golden);
+    }
+
+    .feature-card:hover::before {
+      opacity: 1;
+    }
+
+    .feature-icon-box {
+      width: 72px;
+      height: 72px;
+      margin: 0 auto 20px;
+      background: var(--color-soft-beige-light);
+      border: 1.5px solid var(--color-golden);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-deep-brown);
+      font-size: 1.8rem;
+      transition: var(--transition);
+    }
+
+    .feature-card:hover .feature-icon-box {
+      background: var(--gold-gradient);
+      color: var(--color-deep-brown);
+      transform: scale(1.1) rotate(5deg);
+    }
+
+    .feature-card h3 {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      color: var(--color-deep-brown);
+      margin-bottom: 12px;
+    }
+
+    .feature-card p {
+      font-size: 0.92rem;
+      color: var(--color-muted-text);
+      line-height: 1.6;
+    }
+
+    /* Products Section */
+    .products-section {
+      padding: 90px 0;
+      background: var(--color-cream-light);
+      position: relative;
+    }
+
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 32px;
+    }
+
+    .product-card {
+      background: var(--color-white);
+      border-radius: var(--radius-lg);
+      border: 1px solid var(--color-border-gold);
+      box-shadow: var(--shadow-sm);
+      overflow: hidden;
+      transition: var(--transition);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--color-golden);
+    }
+
+    .product-image-box {
+      position: relative;
+      height: 240px;
+      overflow: hidden;
+      background: #f5ede0;
+    }
+
+    .product-image-box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+    }
+
+    .product-card:hover .product-image-box img {
+      transform: scale(1.08);
+    }
+
+    .product-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: var(--gold-gradient);
+      color: var(--color-deep-brown);
+      font-size: 0.72rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 4px 12px;
+      border-radius: var(--radius-pill);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    .product-veg-badge {
+      position: absolute;
+      top: 14px;
+      right: 14px;
+      width: 22px;
+      height: 22px;
+      background: #fff;
+      border: 1.5px solid #2e7d32;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.12);
+    }
+
+    .product-veg-badge::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: #2e7d32;
+      border-radius: 50%;
+    }
+
+    .product-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .product-title {
+      font-family: var(--font-serif);
+      font-size: 1.35rem;
+      color: var(--color-deep-brown);
+      margin-bottom: 8px;
+    }
+
+    .product-desc {
+      font-size: 0.9rem;
+      color: var(--color-muted-text);
+      line-height: 1.55;
+      margin-bottom: 18px;
+      flex-grow: 1;
+    }
+
+    .product-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.8rem;
+      color: var(--color-golden-dark);
+      font-weight: 600;
+      margin-bottom: 16px;
+      padding-bottom: 14px;
+      border-bottom: 1px dashed rgba(201, 154, 61, 0.3);
+    }
+
+    .product-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .product-price-box {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .product-price {
+      font-family: var(--font-royal);
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--color-deep-brown);
+    }
+
+    .product-weight {
+      font-size: 0.78rem;
+      color: var(--color-muted-text);
+    }
+
+    /* Brand Story */
+    .story-section {
+      padding: 90px 0;
+      background: var(--color-cream);
+      position: relative;
+    }
+
+    .story-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.05fr;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .story-image-wrap {
+      position: relative;
+    }
+
+    .story-image-main {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 2px solid var(--color-golden);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .story-image-main img {
+      width: 100%;
+      height: 480px;
+      object-fit: cover;
+    }
+
+    .story-image-badge {
+      position: absolute;
+      bottom: -25px;
+      right: -25px;
+      background: var(--dark-gradient);
+      border: 2px solid var(--color-golden);
+      color: var(--color-cream);
+      padding: 24px;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+      max-width: 220px;
+      text-align: center;
+    }
+
+    .story-image-badge .number {
+      font-family: var(--font-royal);
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--color-golden);
+      line-height: 1;
+    }
+
+    .story-image-badge .label {
+      font-size: 0.85rem;
+      margin-top: 6px;
+      font-weight: 600;
+      color: var(--color-soft-beige);
+    }
+
+    .story-content h2 {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 3.2vw, 2.7rem);
+      color: var(--color-deep-brown);
+      line-height: 1.25;
+      margin-bottom: 20px;
+    }
+
+    .story-content p {
+      color: var(--color-muted-text);
+      font-size: 1rem;
+      line-height: 1.75;
+      margin-bottom: 18px;
+    }
+
+    .story-highlights {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+      margin: 28px 0;
+    }
+
+    .story-highlight-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      background: var(--color-white);
+      padding: 16px;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--color-border-gold);
+    }
+
+    .story-highlight-item i {
+      color: var(--color-golden);
+      font-size: 1.3rem;
+      margin-top: 2px;
+    }
+
+    .story-highlight-item h4 {
+      font-family: var(--font-serif);
+      font-size: 1rem;
+      color: var(--color-deep-brown);
+      margin-bottom: 4px;
+    }
+
+    .story-highlight-item p {
+      font-size: 0.82rem;
+      color: var(--color-muted-text);
+      margin-bottom: 0;
+      line-height: 1.4;
+    }
+
+    /* Stats Section */
+    .stats-section {
+      background: var(--dark-gradient);
+      padding: 65px 0;
+      color: var(--color-cream);
+      border-top: 1px solid rgba(201, 154, 61, 0.3);
+      border-bottom: 1px solid rgba(201, 154, 61, 0.3);
+    }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 30px;
+      text-align: center;
+    }
+
+    .stat-card {
+      padding: 10px;
+    }
+
+    .stat-number {
+      font-family: var(--font-royal);
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: var(--color-golden);
+      line-height: 1.1;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 0.95rem;
+      color: var(--color-soft-beige);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+
+    /* CTA Section */
+    .cta-section {
+      background: var(--dark-gradient-radial);
+      padding: 90px 0;
+      text-align: center;
+      color: var(--color-cream);
+      position: relative;
+      overflow: hidden;
+      border-top: 2px solid var(--color-golden);
+      border-bottom: 2px solid var(--color-golden);
+    }
+
+    .cta-box {
+      max-width: 800px;
+      margin: 0 auto;
+      position: relative;
+      z-index: 2;
+    }
+
+    .cta-box h2 {
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 3.8vw, 3.2rem);
+      margin-bottom: 18px;
+      color: var(--color-cream);
+    }
+
+    .cta-box p {
+      font-size: 1.1rem;
+      color: var(--color-soft-beige);
+      margin-bottom: 36px;
+      line-height: 1.7;
+    }
+
+    .cta-actions {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    /* Footer */
+    .footer {
+      background: var(--color-deep-brown);
+      color: var(--color-soft-beige);
+      padding: 80px 0 30px;
+      border-top: 3px solid var(--color-golden);
+      position: relative;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 1.4fr 0.9fr 1fr 1.1fr;
+      gap: 40px;
+      margin-bottom: 60px;
+    }
+
+    .footer-brand .logo-title {
+      color: var(--color-cream);
+    }
+
+    .footer-desc {
+      margin: 18px 0 24px;
+      font-size: 0.9rem;
+      color: rgba(243, 227, 195, 0.8);
+      line-height: 1.7;
+    }
+
+    .footer-socials {
+      display: flex;
+      gap: 12px;
+    }
+
+    .social-icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: rgba(201, 154, 61, 0.15);
+      border: 1px solid var(--color-golden);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--color-golden-light);
+      font-size: 0.95rem;
+      transition: var(--transition);
+    }
+
+    .social-icon:hover {
+      background: var(--gold-gradient);
+      color: var(--color-deep-brown);
+      transform: translateY(-3px);
+    }
+
+    .footer-col h4 {
+      font-family: var(--font-royal);
+      font-size: 1.05rem;
+      color: var(--color-golden-light);
+      letter-spacing: 1px;
+      margin-bottom: 22px;
+      position: relative;
+      padding-bottom: 8px;
+    }
+
+    .footer-col h4::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 32px;
+      height: 2px;
+      background: var(--gold-gradient);
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-links a {
+      font-size: 0.9rem;
+      color: rgba(243, 227, 195, 0.85);
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .footer-links a:hover {
+      color: var(--color-golden);
+      transform: translateX(4px);
+    }
+
+    .footer-contact-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      margin-bottom: 16px;
+      font-size: 0.88rem;
+      color: rgba(243, 227, 195, 0.85);
+    }
+
+    .footer-contact-item i {
+      color: var(--color-golden);
+      margin-top: 4px;
+    }
+
+    .footer-bottom {
+      padding-top: 30px;
+      border-top: 1px solid rgba(201, 154, 61, 0.2);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      font-size: 0.85rem;
+      color: rgba(243, 227, 195, 0.7);
+    }
+
+    /* Floating & Back-to-Top */
+    .floating-order-btn {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      z-index: 999;
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: var(--gold-gradient);
+      color: var(--color-deep-brown);
+      padding: 14px 24px;
+      border-radius: var(--radius-pill);
+      font-weight: 700;
+      font-size: 0.95rem;
+      box-shadow: 0 10px 25px rgba(201, 154, 61, 0.45);
+      border: 1.5px solid #ffffff;
+      transition: var(--transition-bounce);
+    }
+
+    .floating-order-btn:hover {
+      transform: translateY(-4px) scale(1.04);
+      box-shadow: 0 14px 30px rgba(201, 154, 61, 0.6);
+    }
+
+    .back-to-top {
+      position: fixed;
+      bottom: 30px;
+      left: 30px;
+      width: 46px;
+      height: 46px;
+      border-radius: 50%;
+      background: var(--color-deep-brown);
+      color: var(--color-golden);
+      border: 1.5px solid var(--color-golden);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      cursor: pointer;
+      z-index: 998;
+      opacity: 0;
+      visibility: hidden;
+      transition: var(--transition);
+      box-shadow: var(--shadow-md);
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-to-top:hover {
+      background: var(--color-golden);
+      color: var(--color-deep-brown);
+      transform: translateY(-3px);
+    }
+
+    .reveal {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.8s cubic-bezier(0.25, 0.8, 0.25, 1), transform 0.8s cubic-bezier(0.25, 0.8, 0.25, 1);
+    }
+
+    .reveal.active {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive Queries */
+    @media (max-width: 1024px) {
+      .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 40px;
+      }
+      .hero-content {
+        margin: 0 auto;
+      }
+      .hero-buttons, .hero-features-strip {
+        justify-content: center;
+      }
+      .story-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+      }
+      .story-image-badge {
+        bottom: -15px;
+        right: 15px;
+      }
+      .footer-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .topbar {
+        display: none;
+      }
+      .hamburger {
+        display: block;
+      }
+      .nav-menu {
+        position: fixed;
+        top: 76px;
+        left: 0;
+        width: 100%;
+        background: var(--color-deep-brown);
+        flex-direction: column;
+        padding: 30px 24px;
+        gap: 20px;
+        border-bottom: 2px solid var(--color-golden);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: clip-path 0.4s ease-in-out;
+      }
+      .nav-menu.open {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+      .nav-link {
+        color: var(--color-cream) !important;
+        font-size: 1.1rem;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+      }
+      .nav-actions .btn {
+        display: none;
+      }
+      .floating-order-btn {
+        bottom: 20px;
+        right: 20px;
+        padding: 10px 18px;
+        font-size: 0.85rem;
+      }
+      .back-to-top {
+        bottom: 20px;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .footer-grid {
+        grid-template-columns: 1fr;
+      }
+      .hero-floating-badge {
+        position: static;
+        margin-top: 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Announcement Bar -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-item">
+        <i class="fa-solid fa-award"></i>
+        <span>Govt. FSSAI Certified & 100% Pure Desi Ghee & Fresh Mawa</span>
+      </div>
+      <div class="topbar-item">
+        <i class="fa-solid fa-truck-fast"></i>
+        <span>Same-Day Fresh Dispatch & Festive Gift Packaging Available</span>
+      </div>
+      <div class="topbar-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>Call / WhatsApp: +91 98765 43210</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header & Sticky Navbar -->
+  <header class="navbar-wrapper">
+    <div class="container navbar">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-symbol">
+          <i class="fa-solid fa-crown"></i>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">SHREE RADHA</span>
+          <span class="logo-subtitle">PEDA • MATHURA TRADITION</span>
+        </div>
+      </a>
+
+      <!-- Desktop & Mobile Navigation Links -->
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="process.html" class="nav-link">Peda Making Process</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="contact.html" class="nav-link">Contact & Order</a>
+      </nav>
+
+      <!-- Navbar Action Buttons -->
+      <div class="nav-actions">
+        <a href="contact.html" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-bag-shopping"></i> Order Now
+        </a>
+        <button class="hamburger" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-badge">
+          <i class="fa-solid fa-certificate"></i> 100% Traditional Recipe
+        </div>
+        <h1 class="hero-title">
+          Authentic Peda, <br>
+          <span class="gold-text">Crafted with Tradition</span>
+        </h1>
+        <p class="hero-description">
+          Experience the rich taste of traditional Indian peda, lovingly prepared with pure ingredients, slow-simmered farm milk, and time-honored techniques passed down through generations.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="products.html" class="btn btn-primary">
+            <i class="fa-solid fa-cookie-bite"></i> Explore Our Peda
+          </a>
+          <a href="contact.html" class="btn btn-secondary">
+            <i class="fa-solid fa-arrow-right"></i> Order Now
+          </a>
+        </div>
+
+        <div class="hero-features-strip">
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-cow"></i> Pure Dairy Khoya
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-hand-holding-heart"></i> Handcrafted Daily
+          </div>
+          <div class="hero-feature-item">
+            <i class="fa-solid fa-ban"></i> Zero Preservatives
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image-wrapper reveal">
+        <div class="hero-image-card">
+          <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQieAmyF7j1GWRHV26D62jLc8LjLiWAx_Cbgn5M3bJXD1Br_C8y" alt="Shree Radha Traditional Golden Peda Sweets Plate">
+          <div class="hero-floating-badge">
+            <div class="floating-badge-icon">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="floating-badge-text">
+              <h4>Brij Heritage Taste</h4>
+              <p>Since 2011 • 50,000+ Happy Patrons</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="features-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-badge">
+          <i class="fa-solid fa-gem"></i> The Shree Radha Promise
+        </div>
+        <h2 class="section-title">Why Choose Our Peda?</h2>
+        <div class="ornament-divider">
+          <span class="line"></span>
+          <span class="symbol">❖</span>
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          We honor centuries of culinary heritage by combining slow-fired traditional copper kadhais with immaculate modern hygiene standards.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <!-- Feature 1 -->
+        <div class="feature-card reveal">
+          <div class="feature-icon-box">
+            <i class="fa-solid fa-droplet"></i>
+          </div>
+          <h3>Fresh Ingredients</h3>
+          <p>Sourced directly from local certified dairy farms every morning, ensuring rich whole milk, natural butterfat, and authentic aroma.</p>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature-card reveal">
+          <div class="feature-icon-box">
+            <i class="fa-solid fa-fire-burner"></i>
+          </div>
+          <h3>Traditional Recipe</h3>
+          <p>Slowly condensed over gentle flame for hours to achieve that iconic melt-in-mouth caramelization and authentic Brij texture.</p>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature-card reveal">
+          <div class="feature-icon-box">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h3>Hygienic Preparation</h3>
+          <p>Crafted in state-of-the-art cleanrooms with touchless machinery and food-grade stainless tools adhering to strict FSSAI guidelines.</p>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature-card reveal">
+          <div class="feature-icon-box">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <h3>Authentic Taste</h3>
+          <p>Flavored only with pure Kashmiri saffron (kesar), organic green cardamom, and premium California dry fruits for divine indulgence.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Products Section -->
+  <section class="products-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <div class="section-badge">
+          <i class="fa-solid fa-crown"></i> Signature Offerings
+        </div>
+        <h2 class="section-title">Featured Peda Varieties</h2>
+        <div class="ornament-divider">
+          <span class="line"></span>
+          <span class="symbol">❖</span>
+          <span class="line"></span>
+        </div>
+        <p class="section-subtitle">
+          Handcrafted with pure khoya and natural spices. Each piece is a tribute to the royal confectioners of Vrindavan and Mathura.
+        </p>
+      </div>
+
+      <div class="products-grid">
+        <!-- Product 1 -->
+        <div class="product-card reveal" data-category="traditional">
+          <div class="product-image-box">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQieAmyF7j1GWRHV26D62jLc8LjLiWAx_Cbgn5M3bJXD1Br_C8y" alt="Traditional Milk Peda">
+            <span class="product-tag">Bestseller</span>
+            <div class="product-veg-badge" title="100% Vegetarian"></div>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Traditional Milk Peda</h3>
+            <p class="product-desc">Soft and creamy traditional peda made from freshly reduced milk, natural cane sugar, and a touch of pure desi ghee.</p>
+            <div class="product-meta">
+              <span><i class="fa-solid fa-clock"></i> Shelf Life: 15 Days</span>
+              <span><i class="fa-solid fa-leaf"></i> 100% Pure Veg</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-box">
+                <span class="product-price">₹320</span>
+                <span class="product-weight">per 500g box</span>
+              </div>
+              <a href="contact.html?product=milk-peda" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-cart-plus"></i> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card reveal" data-category="premium">
+          <div class="product-image-box">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQomS2xpzKgq3MQktrl9YHlAeONfwcMTdFgYio5swT_EFKtcgrw" alt="Royal Kesar Peda">
+            <span class="product-tag">Festive Special</span>
+            <div class="product-veg-badge" title="100% Vegetarian"></div>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Royal Kesar Peda</h3>
+            <p class="product-desc">Rich milk peda infused with pure Kashmiri saffron strands, aromatic spices, and a delicate golden hue of royalty.</p>
+            <div class="product-meta">
+              <span><i class="fa-solid fa-clock"></i> Shelf Life: 15 Days</span>
+              <span><i class="fa-solid fa-seedling"></i> Kashmiri Kesar</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-box">
+                <span class="product-price">₹380</span>
+                <span class="product-weight">per 500g box</span>
+              </div>
+              <a href="contact.html?product=kesar-peda" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-cart-plus"></i> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card reveal" data-category="premium">
+          <div class="product-image-box">
+            <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=900&auto=format&fit=crop" alt="Shahi Dry Fruit Peda">
+            <span class="product-tag">Chef's Special</span>
+            <div class="product-veg-badge" title="100% Vegetarian"></div>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Dry Fruit Peda</h3>
+            <p class="product-desc">Premium condensed mawa peda generously topped and filled with roasted Mamra almonds, cashews, and Persian pistachios.</p>
+            <div class="product-meta">
+              <span><i class="fa-solid fa-clock"></i> Shelf Life: 20 Days</span>
+              <span><i class="fa-solid fa-bowl-food"></i> Dry Fruits Loaded</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-box">
+                <span class="product-price">₹420</span>
+                <span class="product-weight">per 500g box</span>
+              </div>
+              <a href="contact.html?product=dryfruit-peda" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-cart-plus"></i> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card reveal" data-category="traditional">
+          <div class="product-image-box">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQRtSWNd0ZUm-olllREKXz7_5H_QMgFAgN-r3_wxNyjkJXC39qZ" alt="Classic Elaichi Peda">
+            <span class="product-tag">Heritage Classic</span>
+            <div class="product-veg-badge" title="100% Vegetarian"></div>
+          </div>
+          <div class="product-body">
+            <h3 class="product-title">Elaichi Peda</h3>
+            <p class="product-desc">Classic mawa peda infused with stone-ground green cardamom pods, giving a heavenly soothing aroma with every bite.</p>
+            <div class="product-meta">
+              <span><i class="fa-solid fa-clock"></i> Shelf Life: 15 Days</span>
+              <span><i class="fa-solid fa-spa"></i> Fresh Cardamom</span>
+            </div>
+            <div class="product-footer">
+              <div class="product-price-box">
+                <span class="product-price">₹350</span>
+                <span class="product-weight">per 500g box</span>
+              </div>
+              <a href="contact.html?product=elaichi-peda" class="btn btn-primary btn-sm">
+                <i class="fa-solid fa-cart-plus"></i> Order Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center" style="margin-top: 50px;">
+        <a href="products.html" class="btn btn-dark">
+          <i class="fa-solid fa-boxes-stacked"></i> View All Products & Gift Hampers
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Brand Story Section -->
+  <section class="story-section">
+    <div class="container story-grid">
+      <div class="story-image-wrap reveal">
+        <div class="story-image-main">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnUl960VI3YIkFDMv7D-rGqZq1CzffNNgLw-vaPDiZTQ&s=10" alt="Traditional Sweet Making Process in Kadhai">
+        </div>
+        <div class="story-image-badge">
+          <span class="number">15+</span>
+          <span class="label">Years of Sweet Purity & Mastery</span>
+        </div>
+      </div>
+
+      <div class="story-content reveal">
+        <div class="section-badge">
+          <i class="fa-solid fa-scroll"></i> Our Heritage
+        </div>
+        <h2>“Tradition in Every Bite, Purity in Every Piece”</h2>
+        <p>
+          Founded in the sacred land celebrated for its eternal love and sweet craftsmanship, <strong>Shree Radha Peda</strong> was established with a singular devotion: to preserve the authentic taste of pure Indian peda without shortcuts or artificial adulterants.
+        </p>
+        <p>
+          We continue to follow the slow-reduction methods practiced by royal Halwais, taking pure whole milk and simmering it patiently until it turns into golden, aromatic mawa.
+        </p>
+
+        <div class="story-highlights">
+          <div class="story-highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h4>Farm-Fresh Whole Milk</h4>
+              <p>Direct collection from grass-fed cows daily.</p>
+            </div>
+          </div>
+          <div class="story-highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h4>No Artificial Additives</h4>
+              <p>Free from synthetic flavors, stabilizers or colors.</p>
+            </div>
+          </div>
+          <div class="story-highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h4>Hand-Pressed & Stamped</h4>
+              <p>Traditional floral peda stamps for elegance.</p>
+            </div>
+          </div>
+          <div class="story-highlight-item">
+            <i class="fa-solid fa-circle-check"></i>
+            <div>
+              <h4>Festive Export Packing</h4>
+              <p>Sealed in moisture-locking food boxes.</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 24px;">
+          <a href="about.html" class="btn btn-primary">
+            <i class="fa-solid fa-book-open"></i> Read Full Story
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Statistics Bar -->
+  <section class="stats-section">
+    <div class="container stats-grid">
+      <div class="stat-card reveal">
+        <div class="stat-number">15+</div>
+        <div class="stat-label">Years of Tradition</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-number">50,000+</div>
+        <div class="stat-label">Happy Customers</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-number">100%</div>
+        <div class="stat-label">Fresh & Pure Ingredients</div>
+      </div>
+      <div class="stat-card reveal">
+        <div class="stat-number">20+</div>
+        <div class="stat-label">Sweet Varieties & Packs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container cta-box reveal">
+      <div class="section-badge" style="background: rgba(255,255,255,0.1); color: var(--color-golden-light); border-color: var(--color-golden);">
+        <i class="fa-solid fa-gift"></i> Freshly Prepared Upon Order
+      </div>
+      <h2>Bring the Sweetness of Tradition Home</h2>
+      <p>
+        Whether celebrating Diwali, Raksha Bandhan, family weddings, or gifting loved ones, Shree Radha Peda delivers divine bliss straight to your doorstep with guaranteed freshness.
+      </p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-primary">
+          <i class="fa-solid fa-cart-shopping"></i> Order Peda Now
+        </a>
+        <a href="process.html" class="btn btn-secondary">
+          <i class="fa-solid fa-play"></i> Watch Making Process
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand-logo">
+            <div class="logo-symbol">
+              <i class="fa-solid fa-crown"></i>
+            </div>
+            <div class="logo-text">
+              <span class="logo-title">SHREE RADHA</span>
+              <span class="logo-subtitle">PEDA • MATHURA TRADITION</span>
+            </div>
+          </a>
+          <p class="footer-desc">
+            Shree Radha Peda represents authentic Indian confectionery heritage. Handcrafted with 100% pure mawa, saffron, and love. Tradition in every bite.
+          </p>
+          <div class="footer-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://whatsapp.com" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <div class="footer-links">
+            <a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a>
+            <a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a>
+            <a href="process.html"><i class="fa-solid fa-chevron-right"></i> Making Process</a>
+            <a href="products.html"><i class="fa-solid fa-chevron-right"></i> Our Products</a>
+            <a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact & Order</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Specialties</h4>
+          <div class="footer-links">
+            <a href="products.html"><i class="fa-solid fa-sparkles"></i> Traditional Milk Peda</a>
+            <a href="products.html"><i class="fa-solid fa-sparkles"></i> Royal Kesar Peda</a>
+            <a href="products.html"><i class="fa-solid fa-sparkles"></i> Dry Fruit Peda</a>
+            <a href="products.html"><i class="fa-solid fa-sparkles"></i> Classic Elaichi Peda</a>
+            <a href="products.html"><i class="fa-solid fa-sparkles"></i> Festival Celebration Box</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Visit Our Bhavan</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <strong>Headquarters & Kitchen:</strong><br>
+              Shree Radha Bhavan, Near Temple Road, Mathura, Uttar Pradesh 281001, India
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-phone"></i>
+            <div>
+              <strong>Helpline:</strong><br>
+              +91 98765 43210 / +91 98111 22334
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <strong>Email Orders:</strong><br>
+              orders@shreeradhapeda.com
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year">2026</span> Shree Radha Peda. All Rights Reserved.</p>
+        <p>Crafted with Tradition, Purity & Devotion • FSSAI Lic. No: 12722001000452</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Order Button -->
+  <a href="contact.html" class="floating-order-btn" title="Quick Order">
+    <i class="fa-solid fa-bag-shopping"></i> Order Fresh Peda
+  </a>
+
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- INTERNAL JAVASCRIPT -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const yearElement = document.getElementById('current-year');
+      if (yearElement) yearElement.textContent = new Date().getFullYear();
+
+      const hamburger = document.querySelector('.hamburger');
+      const navMenu = document.querySelector('.nav-menu');
+      if (hamburger && navMenu) {
+        hamburger.addEventListener('click', () => {
+          navMenu.classList.toggle('open');
+        });
+        document.querySelectorAll('.nav-link').forEach(link => {
+          link.addEventListener('click', () => navMenu.classList.remove('open'));
+        });
+      }
+
+      const navbarWrapper = document.querySelector('.navbar-wrapper');
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 40) {
+          navbarWrapper?.classList.add('scrolled');
+        } else {
+          navbarWrapper?.classList.remove('scrolled');
+        }
+      });
+
+      const backToTopBtn = document.querySelector('.back-to-top');
+      if (backToTopBtn) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 400) {
+            backToTopBtn.classList.add('visible');
+          } else {
+            backToTopBtn.classList.remove('visible');
+          }
+        });
+        backToTopBtn.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+      }
+
+      const revealElements = document.querySelectorAll('.reveal');
+      if (revealElements.length > 0) {
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('active');
+              observer.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.12 });
+        revealElements.forEach(el => revealObserver.observe(el));
+      }
+    });
+  </script>
+</body>
+</html>
